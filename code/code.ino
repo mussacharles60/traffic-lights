@@ -53,8 +53,8 @@ bool is_idle_state = false;
 
 uint8_t ALTERNATE_TIMEOUT = 10;          // time interval for traffic lights to stay on green or red (seconds)
 uint8_t IDLE_TIMEOUT = 3;                // timeout for the yellow lights (seconds)
-uint8_t SHORT_DISTANCE_TRAFFIC = 10;     // used to determine if there's long traffic waiting to cross the road
-uint8_t LONG_TRAFFIC_MEASURING_TIME = 3; // for measuring how long the (long traffic are waiting to cross the road)
+uint8_t SHORT_DISTANCE_TRAFFIC = 10;     // used to determine if there's long traffic waiting to cross the road (cm)
+uint8_t LONG_TRAFFIC_MEASURING_TIME = 3; // for measuring how long the (long traffic are waiting to cross the road) (seconds)
 
 uint8_t lights_state = 0;                // for allowing which traffic lights to turn on
 
