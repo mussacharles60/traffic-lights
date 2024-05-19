@@ -90,6 +90,9 @@ void setup() {
   digitalWrite(GREEN_C, 0);
 
   Serial.println(F("START"));
+  delay(1000);
+  lights_state = 1;
+  switchLights();
 }
 
 void loop() {
